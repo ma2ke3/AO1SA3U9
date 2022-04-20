@@ -19,11 +19,10 @@
     <section class="bannerPrincipal">
         <mat-grid-list cols="12" rowHeight="450px">
             <mat-grid-tile colspan="7">
-                    <div class="banner1">
-                        <img src="\assets\Imagens\image-1.png" style="width: 600px; height: 300px;">
-                        <h3>GTA 3, Vice City e San Andreas podem ganhar remake ainda em 2021</h3>
-                        <p>Rockstar pode estar perto de anunciar coleção com GTA 3, Vice City e San Andreas com gráficos
-                            melhorados</p>
+                    <div *ngFor="let noticias of listaNoticias" class="banner1">
+                        <img [src]=noticias.imagem style="width: 600px; height: 300px;">
+                        <h3>{{noticias.titulo}}</h3>
+                        <p>{{noticias.descricao}}</p>
                     </div>
             </mat-grid-tile>
             <mat-grid-tile colspan="5">

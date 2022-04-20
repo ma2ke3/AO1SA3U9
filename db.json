@@ -1,0 +1,40 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "assets/Imagens/image-1.png",
+      "titulo": "blablabla",
+      "descricao": "nhenhenhe"
+    },
+    {
+      "id": 2,
+      "imagem": "",
+      "titulo": "abc",
+      "descricao": "dfg"
+    },
+    {
+      "id": 3,
+      "imagem": "",
+      "titulo": "abc",
+      "descricao": "dfg"
+    },
+    {
+      "id": 4,
+      "imagem": "",
+      "titulo": "abc",
+      "descricao": "dfg"
+    },
+    {
+      "id": 5,
+      "imagem": "",
+      "titulo": "abc",
+      "descricao": "dfg"
+    },
+    {
+      "id": 6,
+      "imagem": "",
+      "titulo": "abc",
+      "descricao": "dfg"
+    }
+  ]
+}
